@@ -50,6 +50,16 @@ if (cardsInPlay.length === 2) {
 }
 };
 
+var createBoard = function() {
+	for (var i = 0; i < cardsInPlay.length; i++) {
+		cardsInPlay[i];
+		var newListItem = document.createElement('img');
+		var cardElement = newListItem; 
+		cardElement.setAttribut('attributName', 'setAttributValue');
+		}
+		
+		
+}
 
 
 
